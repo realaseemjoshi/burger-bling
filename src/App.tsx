@@ -21,7 +21,7 @@ const USER_STORAGE_KEY = 'burger_bling_user_v1';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<NavTabType>('home');
-  // Default to index 2: "The Ultimate Bling Haven" which corresponds to thumbnail #3
+  // Default to index 2: the signature Burger Bling burger, matching thumbnail #3.
   const [selectedBurgerIndex, setSelectedBurgerIndex] = useState<number>(2);
 
   // Likes and counter (starts with 42 matching the screenshot)

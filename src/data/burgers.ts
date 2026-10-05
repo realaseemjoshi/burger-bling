@@ -68,9 +68,9 @@ export const BURGER_ITEMS: BurgerItem[] = [
   },
   {
     id: 'ultimate-haven',
-    name: 'The Ultimate Bling Haven',
+    name: 'The Ultimate Bling Burger',
     headlineFirst: 'THE ULTIMATE',
-    headlineSecond: 'BURGER HAVEN',
+    headlineSecond: 'BURGER BLING',
     description: 'Welcome to our Burger Bling Paradise, where every bite is a journey into flavor perfection! Indulge in a symphony of premium ingredients, expertly crafted patties, and mouthwatering sauces.',
     price: 399,
     originalPrice: 499,
@@ -255,7 +255,7 @@ export const INITIAL_ORDERS: OrderRecord[] = [
       {
         id: 'item-1',
         burgerId: 'ultimate-haven',
-        name: 'The Ultimate Bling Haven (DOUBLE)',
+        name: 'The Ultimate Bling Burger (DOUBLE)',
         price: 399,
         quantity: 2,
         image: heroFlyingImg,
